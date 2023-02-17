@@ -1,0 +1,16 @@
+#sidebar{
+    background-color: grey;
+    width: 250px;
+    height: 100vh;
+    padding: 5px 10px;
+    nav{
+        ul{
+            li{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

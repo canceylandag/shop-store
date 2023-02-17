@@ -1,0 +1,40 @@
+.list-page{
+
+    padding: 20px;
+    width: 100%;
+    .addbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        a{
+           border: 1px solid black;
+           padding: 10px;
+           text-decoration: none;
+        }
+        
+    }
+    .list-side{
+        .list-header,.list-body{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            
+            &.product{
+                grid-template-columns: repeat(5,1fr);
+            }
+            gap: 16px;
+            
+            
+            list-style-type: none;
+            li{
+                margin: 10px;
+                span{
+                    margin-right:5px ;
+                }
+            }
+
+        }
+       
+
+    }
+
+}
