@@ -17,10 +17,6 @@
         .list-header,.list-body{
             display: grid;
             grid-template-columns: repeat(3,1fr);
-            
-            &.product{
-                grid-template-columns: repeat(5,1fr);
-            }
             gap: 16px;
             
             

@@ -9,9 +9,7 @@ const Home=(props)=>{
       <a>Kategori Ekle</a>
     </div>
     <div className="list-side">
-      <ul className="list-header product">
-        <li>İd</li> <li>Kategori Adı</li><li>Fiyat</li><li>Açıklama</li><li>İşlemler</li>
-      </ul>
+      
       <ul>
         {productsList.map((x) => {
           
