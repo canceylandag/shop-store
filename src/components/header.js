@@ -5,16 +5,21 @@ const Header = (props) => {
     const func=props.sidebars[1]; 
 
     return (
-    <div id="header" onClick={()=>func(!state)}>
+    <div id="header" >
   
-      <div className="hamburger-button">
+      <div className="hamburger-button" onClick={()=>func(!state)}>
         <span></span>
         <span></span>
         <span></span>
       </div>
       <div className="navbar-brand">
       <Link to="/"><h3>Canın Dükkanı</h3></Link>
-        
+        <nav>
+          <ul>
+          <li><Link to="/">Ürün Sayfası</Link></li>
+            <li><Link to="categories">Kategori Listesi</Link></li>
+          </ul>
+        </nav>
       </div>
     </div>
     );
